@@ -361,14 +361,13 @@ footer a {
 }
 
 
-
 /* Kuroyza's CSS */
 .kz-bold{
     font-weight: 500;
 }
 
 .kz-card{
-    position: relative;
+    position: relative;    
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/folk-pattern-black.png);
     background-position: center;
     background-size: cover;
@@ -393,7 +392,7 @@ footer a {
     background:rgb(240, 240, 240);
     width: 190px;
     height: 190px;
-    border: 10px solid #fff;
+    border: 10px solid #fff; 
     transform: translateY(10%);
     z-index: 9;
 }
@@ -430,7 +429,7 @@ footer a {
 }
 
 @keyframes kz-wave-animation{
-
+    
     0%{
         transform: rotate(1turn);
     }
@@ -443,8 +442,9 @@ footer a {
     border-radius: 1rem;
     padding: 2rem 0 0 0;
     overflow: hidden;
-
+    background: transparent;
     border: none;
+    margin-top: 2rem;
 }
 
 .card-img {
